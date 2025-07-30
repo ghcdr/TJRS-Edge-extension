@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <style>
+            body {
+                width: 500px;
+            }
+            button {
+                background-color: #336dab;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                font-size: 16px;
+            }
+            div {
+                margin-bottom: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Preencher dados</h1>
+        <div>
+            <label for="data-inicial">Data inicial:</label>
+            <input type="date" id="data-inicial" value="2025-01-01" />
+        </div>
+        <div>
+            <label for="valor">Valor:</label>
+            <input type="text" id="valor" value="1000" />
+        </div>
+        <div>
+            <label for="data-juros">Juros a partir:</label>
+            <input type="date" id="data-juros" value="2025-01-01" />
+        </div>
+        <div>
+            <label for="num-parcelas">Nº de parcelas:</label>
+            <input type="text" id="num-parcelas" value="5" />
+        </div>
+        <div>
+            <button id="navegar">Ir para TJRS</button>
+            <button id="preencher-button">Preencher</button>
+        </div>
+        <script src="popup.js"></script>
+    </body>
+</html>
